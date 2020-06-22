@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="E:/LeetCode_temp/leetcode/editor/cn/[189]旋转数组.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="E:/LeetCode_temp/leetcode/editor/cn/[189]旋转数组.py" />
+              <option name="questionId" value="189" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/LeetCode_temp/leetcode/editor/cn/[206]反转链表.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="E:/LeetCode_temp/leetcode/editor/cn/[206]反转链表.py" />
+              <option name="questionId" value="206" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/LeetCode_temp/leetcode/editor/cn/[21]合并两个有序链表.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="E:/LeetCode_temp/leetcode/editor/cn/[21]合并两个有序链表.py" />
+              <option name="questionId" value="21" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/LeetCode_temp/leetcode/editor/cn/[239]滑动窗口最大值.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="E:/LeetCode_temp/leetcode/editor/cn/[239]滑动窗口最大值.py" />
+              <option name="questionId" value="239" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/LeetCode_temp/leetcode/editor/cn/[242]有效的字母异位词.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="E:/LeetCode_temp/leetcode/editor/cn/[242]有效的字母异位词.py" />
+              <option name="questionId" value="242" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/LeetCode_temp/leetcode/editor/cn/[26]删除排序数组中的重复项.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="E:/LeetCode_temp/leetcode/editor/cn/[26]删除排序数组中的重复项.py" />
+              <option name="questionId" value="26" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/LeetCode_temp/leetcode/editor/cn/[66]加一.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="E:/LeetCode_temp/leetcode/editor/cn/[66]加一.py" />
+              <option name="questionId" value="66" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/LeetCode_temp/leetcode/editor/cn/[88]合并两个有序数组.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="E:/LeetCode_temp/leetcode/editor/cn/[88]合并两个有序数组.py" />
+              <option name="questionId" value="88" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

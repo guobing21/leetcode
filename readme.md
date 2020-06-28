@@ -11,3 +11,5 @@
 ​		第二位2代表在本题库中的做题顺序。
 
 ​		第三位3代表此题在letcode中的题号。
+
+build a nerual network

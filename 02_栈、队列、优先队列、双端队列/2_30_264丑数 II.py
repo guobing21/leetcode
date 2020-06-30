@@ -19,25 +19,25 @@
 
 # leetcode submit region begin(Prohibit modification and deletion)
 # 1 解答成功: 执行耗时:1108 ms,击败了6.24% 的Python3用户 内存消耗:13.9 MB,击败了12.50% 的Python3用户
-# from queue import PriorityQueue
-# class Solution:
-#     def nthUglyNumber(self, n: int) -> int:
-#         pq = PriorityQueue()
-#         res = set()
-#
-#         pq.put(1)
-#         res.add(1)
-#
-#         i = 1
-#         while True:
-#             num = pq.get()
-#             if i == n:
-#                 return num
-#             i += 1
-#             for new_num in num * 2, num * 3, num * 5:
-#                 if new_num not in res:
-#                     res.add(new_num)
-#                     pq.put(new_num)
+from queue import PriorityQueue
+class Solution:
+    def nthUglyNumber(self, n: int) -> int:
+        pq = PriorityQueue()
+        res = set()
+
+        pq.put(1)
+        res.add(1)
+
+        i = 1
+        while True:
+            num = pq.get()
+            if i == n:
+                return num
+            i += 1
+            for new_num in num * 2, num * 3, num * 5:
+                if new_num not in res:
+                    res.add(new_num)
+                    pq.put(new_num)
 # 2
 # 运行失败: Time Limit Exceeded stdout: null
 # class Solution:

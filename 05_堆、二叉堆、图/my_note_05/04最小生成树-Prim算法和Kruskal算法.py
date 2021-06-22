@@ -10,7 +10,7 @@ def prim(edges, n):
     g = defaultdict(list)
     for e in edges:
         g[e[0]].append((e[1], e[2]))
-        g[e[1]].append((e[0], e[2]))
+        g[e[1]].append((e[0], e[2])) # 无向有权图
     q = []
     cost = 0
     seen = set()
@@ -28,8 +28,34 @@ def prim(edges, n):
                 heapq.heappush(q, (w, v2))
     return ans, cost
 
+
 print(prim(edges, 4))
 
+
+def prim2(edges, n):
+    g = defaultdict(list)
+    for e in edges:
+        g[e[0]].append((e[1], e[2]))
+        g[e[1]].append((e[0], e[2])) # 无向有权图
+    q = []
+    cost = 0
+    seen = set()
+    ans = []
+    heapq.heappush(q, (0, (0, 0)))
+    for _ in range(n):
+        w, v12 = heapq.heappop(q)
+        v1, v2 = v12
+        if v2 in seen:
+            continue
+        cost += w
+        ans.append("{} and {}".format(v1, v2))
+        seen.add(v2)
+        for v, w in g[v2]:
+            if v not in seen:
+                heapq.heappush(q, (w, (v2,v)))
+    return ans, cost
+
+print(prim2(edges, 4))
 
 def kruskal(edges, n):
     # def find_parent(x):
@@ -52,7 +78,7 @@ def kruskal(edges, n):
     parent = list(range(n))
     cost = 0
     ans = []
-    for v1, v2, w in sorted(edges, key=lambda x: x[2]): # 安装权重排序，先取权重最小的
+    for v1, v2, w in sorted(edges, key=lambda x: x[2]): # 按照权重排序，先取权重最小的
         v1_parent, v2_parent = find_parent(v1), find_parent(v2)
         if v1_parent == v2_parent: # v1 和v2两个点是联通的
             continue
